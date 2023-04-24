@@ -366,3 +366,20 @@ main {
   .headerLi li a:hover {
     color: rgb(195, 228, 48);
   }
+
+  .success-message, .error-message {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .success-message {
+    background-color: #bde4a7;
+    color: #336600;
+  }
+  
+  .error-message {
+    background-color: #ffb6b6;
+    color: #cc0000;
+  }
