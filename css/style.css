@@ -456,3 +456,9 @@ main {
     }
   }
   
+  .blog5Image{
+    width: 60%;
+   
+    display: block; /* Add this line */
+    margin: 0 auto; /* Add this line */
+  }
