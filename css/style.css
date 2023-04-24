@@ -332,3 +332,9 @@ main {
   .frontImage{
     max-width: 70%;
   }
+
+  #searchInput{
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+  }
