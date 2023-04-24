@@ -489,3 +489,26 @@ main {
   header{
     height: 240px;
   }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+    order: -1; /* This will ensure the logo container is always on top */
+  }
+  
+  @media (min-width: 768px) {
+    .header-container {
+      flex-direction: row;
+    }
+  
+    .logo-container {
+      order: 0; /* Reset the order property for larger screens */
+    }
+  }
+  
+  .header nav ul li a {
+    font-size: 23px; /* Adjust the value as needed */
+  }
