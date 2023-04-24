@@ -430,11 +430,19 @@ main {
       align-items: center;
       padding: 1rem;
     }
+
+    .logo-container {
+      width: 100%; /* Add this line */
+      display: flex; /* Add this line */
+      flex-direction: column; /* Add this line */
+      align-items: center; /* Add this line */
+    }
   
     .frontTitle {
       margin-top: 0.5rem;
       font-size: 1.5rem;
       text-align: center;
+      width: 100%;
     }
   
     .headerLi {
