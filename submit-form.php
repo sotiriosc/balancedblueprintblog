@@ -1,4 +1,6 @@
 <?php
+echo "PHP code is being executed!";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];

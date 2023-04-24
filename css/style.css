@@ -10,7 +10,7 @@
   }
 
   body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../assets/images/blueprint.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/images/blueprint.png');
     background-size: cover;
     background-position: center;
   }
@@ -29,10 +29,16 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .frontTitle{
+    font-size: 70px;
+  }
   
   img.logo {
     max-width: 20%;
     align-self: flex-start;
+    border-radius: 90%;
+    margin-top: 40px;
   }
   
   header {
@@ -322,11 +328,11 @@ main {
   }
 
   .title{
-    color: #f44336;
+    color: #16caca;
   }
 
   .description{
-    color: rgb(255, 0, 204);
+    color: rgb(243, 51, 239);
   }
 
   .frontImage{
@@ -346,4 +352,17 @@ main {
     height: 40px;
     display: inline-block;
     vertical-align: middle;
+  }
+
+  .headerLi{
+    font-size: 40px;
+    color: #f1f1f1;
+  }
+
+  .headerLi li a {
+    color: white;
+  }
+
+  .headerLi li a:hover {
+    color: rgb(195, 228, 48);
   }
