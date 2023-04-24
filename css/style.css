@@ -36,9 +36,8 @@
   
   img.logo {
     max-width: 20%;
-    align-self: flex-start;
+    align-self: center;
     border-radius: 90%;
-    margin-top: 40px;
   }
   
   header {
@@ -396,6 +395,7 @@ main {
   .logo {
     max-width: 100%;
     height: auto;
+    
   }
   
   .frontTitle {
@@ -461,4 +461,18 @@ main {
    
     display: block; /* Add this line */
     margin: 0 auto; /* Add this line */
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .logo {
+    animation: rotate 40s linear infinite;
+    
   }
