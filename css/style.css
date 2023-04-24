@@ -61,6 +61,7 @@ main {
     background-color: #1231e1;
     color: #fff;
     padding: 10px;
+    position: relative; 
   }
   
   .logo-container {
@@ -354,10 +355,18 @@ main {
     vertical-align: middle;
   }
 
-  .headerLi{
-    font-size: 40px;
-    color: #f1f1f1;
-  }
+  
+.headerLi {
+  font-size: 20px;
+  color: #f1f1f1;
+  position: absolute; /* Add this line */
+  bottom: 0; /* Add this line */
+  left: 0; /* Add this line */
+  right: 0; /* Add this line */
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  padding-bottom: 10px; /* Add this line */
+}
 
   .headerLi li a {
     color: white;
@@ -475,4 +484,8 @@ main {
   .logo {
     animation: rotate 40s linear infinite;
     
+  }
+
+  header{
+    height: 240px;
   }
