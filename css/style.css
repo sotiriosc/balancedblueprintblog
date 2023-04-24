@@ -384,3 +384,43 @@ main {
     background-color: #ffb6b6;
     color: #cc0000;
   }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .frontTitle {
+    margin-left: 1rem;
+  }
+  
+  .headerLi {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .frontTitle {
+      margin-left: 0;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .headerLi {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  }
+  
