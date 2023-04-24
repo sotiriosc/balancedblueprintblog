@@ -15,6 +15,9 @@
     background-position: center;
   }
   
+  .question {
+    font-size: 70px;
+  }
   
   /* Define common styles for body, header, main, and footer */
   body {
