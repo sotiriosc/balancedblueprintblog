@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +19,7 @@
     font-size: 70px;
   }
   
-  /* Define common styles for body, header, main, and footer */
+  
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -116,7 +116,7 @@ main {
   height: 100px;
 }
   
-  /* Define styles for navigation menu */
+  
   nav {
     display: flex;
     justify-content: center;
@@ -143,7 +143,7 @@ main {
     color: #0077cc;
   }
   
-  /* Define styles for hero section */
+ 
   .hero {
     display: flex;
     justify-content: space-between;
@@ -187,13 +187,13 @@ main {
   .hero-image {
     flex: 1;
     text-align: center;
-    max-width: 100%; /* Add this line to control the image size */
+    max-width: 100%; 
     opacity: 0;
     transform: translateY(2rem);
-    animation: fade-in 1s ease-out forwards 0.5s; /* Update the duration and add a delay */
+    animation: fade-in 1s ease-out forwards 0.5s;
   }
 
-  /* Dropdown menu styles */
+ 
 .dropdown {
     position: relative;
     display: inline-block;
@@ -270,7 +270,7 @@ main {
     }
   }
   
-  /* Blog Post Page */
+
 .post-meta {
     font-size: 0.9em;
     color: #777;
@@ -359,13 +359,13 @@ main {
 .headerLi {
   font-size: 20px;
   color: #f1f1f1;
-  position: absolute; /* Add this line */
-  bottom: 0; /* Add this line */
-  left: 0; /* Add this line */
-  right: 0; /* Add this line */
-  display: flex; /* Add this line */
-  justify-content: center; /* Add this line */
-  padding-bottom: 10px; /* Add this line */
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  display: flex; 
+  justify-content: center; 
+  padding-bottom: 10px; 
 }
 
   .headerLi li a {
@@ -441,10 +441,10 @@ main {
     }
 
     .logo-container {
-      width: 100%; /* Add this line */
-      display: flex; /* Add this line */
-      flex-direction: column; /* Add this line */
-      align-items: center; /* Add this line */
+      width: 100%; 
+      display: flex; 
+      flex-direction: column;
+      align-items: center; 
     }
   
     .frontTitle {
@@ -468,8 +468,8 @@ main {
   .blog5Image{
     width: 60%;
    
-    display: block; /* Add this line */
-    margin: 0 auto; /* Add this line */
+    display: block;
+    margin: 0 auto; 
   }
 
   @keyframes rotate {
@@ -496,7 +496,7 @@ main {
   }
   
   .logo-container {
-    order: -1; /* This will ensure the logo container is always on top */
+    order: -1; 
   }
   
   @media (min-width: 768px) {
@@ -505,10 +505,14 @@ main {
     }
   
     .logo-container {
-      order: 0; /* Reset the order property for larger screens */
+      order: 0; 
     }
   }
   
   .header nav ul li a {
-    font-size: 23px; /* Adjust the value as needed */
-  }
+    font-size: 23px; 
+  }  
+
+  
+
+  
