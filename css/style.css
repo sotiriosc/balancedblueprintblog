@@ -479,7 +479,7 @@ main {
   }
 
   header{
-    height: 240px;
+    height: 280px;
   }
 
   .header-container {
@@ -493,7 +493,7 @@ main {
   
   
   .header nav ul li a {
-    font-size: 18px; 
+    font-size: 30px; 
   }  
 
   
