@@ -47,7 +47,7 @@ main {
   
   header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #1231e1;
@@ -377,18 +377,19 @@ main {
 
     .header {
       /* flex-direction: column; */
-      align-items: center;
+     
       padding: 1rem;
+      display: flex;
+      
     }
   
     .logo-container {
       width: 100%; 
       display: flex; 
-      flex-direction: column;
+  
     }
   
     .headerLi {
-      flex-direction: column;
       align-items: center;
       gap: 0.5rem;
       
@@ -396,6 +397,9 @@ main {
   
     .frontTitle {
       font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      margin-right: 10px;
     }
   
    
