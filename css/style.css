@@ -13,14 +13,6 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/images/blueprint.png');
     background-size: cover;
     background-position: center;
-  }
-  
-  .question {
-    font-size: 70px;
-  }
-  
-  
-  body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -29,6 +21,12 @@
     flex-direction: column;
     width: 100%;
   }
+  
+  .question {
+    font-size: 70px;
+  }
+  
+  
 
   .frontTitle{
     font-size: 70px;
@@ -40,12 +38,6 @@
     border-radius: 90%;
   }
   
-  header {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -94,10 +86,6 @@ main {
     margin: 0 1rem;
   }
   
-  h1 {
-    white-space: nowrap;
-  }
-  
   main {
     display: flex;
     flex:1;
@@ -137,6 +125,7 @@ main {
     color: #333;
     font-weight: bold;
     transition: color 0.3s ease;
+    font-size: 20px;
   }
   
   nav a:hover {
@@ -277,12 +266,6 @@ main {
     margin-bottom: 1em;
   }
   
-  .post-header-image {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    margin-bottom: 1em;
-  }
   
   .blog-post {
     max-width: 800px;
@@ -355,27 +338,6 @@ main {
     vertical-align: middle;
   }
 
-  
-.headerLi {
-  font-size: 20px;
-  color: #f1f1f1;
-  position: absolute; 
-  bottom: 0; 
-  left: 0; 
-  right: 0; 
-  display: flex; 
-  justify-content: center; 
-  padding-bottom: 10px; 
-}
-
-  .headerLi li a {
-    color: white;
-  }
-
-  .headerLi li a:hover {
-    color: rgb(195, 228, 48);
-  }
-
   .success-message, .error-message {
     padding: 20px;
     margin-top: 20px;
@@ -392,14 +354,6 @@ main {
     background-color: #ffb6b6;
     color: #cc0000;
   }
-
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1rem;
-  }
   
   .logo {
     max-width: 100%;
@@ -407,16 +361,13 @@ main {
     
   }
   
-  .frontTitle {
-    margin-left: 1rem;
-  }
-  
-  .headerLi {
-    display: flex;
-    gap: 1rem;
-  }
   
   @media (max-width: 768px) {
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
     .header {
       flex-direction: column;
       align-items: center;
@@ -473,26 +424,6 @@ main {
     
   }
 
-  header{
-    height: 280px;
-  }
-
-  .header-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
   .logo-container {
     order: -1; 
   }
-  
-  
-  .header nav ul li a {
-    font-size: 28px; 
-    
-  }  
-
- .header nav ul {
-  margin-bottom: 20px;
- }
-  
