@@ -306,6 +306,13 @@ main {
       width: 100%;
     }
   } */
+
+.post-header-image{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
   
   .post-header-image {
     object-fit: contain;
