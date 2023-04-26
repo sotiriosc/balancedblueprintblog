@@ -9,6 +9,8 @@
     height: 100%;
   }
 
+ 
+
   body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../assets/images/blueprint.png');
     background-size: cover;
@@ -26,11 +28,6 @@
     font-size: 70px;
   }
   
-  
-
-  .frontTitle{
-    font-size: 70px;
-  }
   
   img.logo {
     max-width: 20%;
