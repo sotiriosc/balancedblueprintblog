@@ -118,15 +118,13 @@ main {
   }
   
   nav a {
-    text-decoration: none;
-    color: #333;
+    color: #f1f1f1;
     font-weight: bold;
     transition: color 0.3s ease;
-    font-size: 20px;
   }
   
   nav a:hover {
-    color: #0077cc;
+    color: #010d14;
   }
   
  
@@ -226,12 +224,23 @@ main {
   @keyframes fade-in-right {
     0% {
       opacity: 0;
-      transform: translateX(-2rem);
+      transform: translateX(-100rem);
     }
     100% {
       opacity: 1;
       transform: translateX(0);
     }
+  }
+
+  @keyframes fade-in-left {
+    0% {
+      opacity: 0;
+      transform: translateY(-10rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    } 
   }
   
   @keyframes fade-in {
@@ -433,4 +442,11 @@ main {
 
   .logo-container {
     order: -1; 
+  }
+
+  .animate-fade-in-left {
+    animation-name: fade-in-left;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
   }
