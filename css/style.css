@@ -47,7 +47,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #1231e1;
+    background-color: #1613b9;
     color: #fff;
     padding: 10px;
     position: relative; 
@@ -325,11 +325,11 @@ main {
   }
 
   .title{
-    color: #16caca;
+    color: #1613b9;
   }
 
   .description{
-    color: rgb(243, 51, 239);
+    color: rgb(180, 27, 177);
   }
 
   .frontImage{
